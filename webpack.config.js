@@ -1,4 +1,4 @@
-const path = require("path");
+﻿const path = require("path");
 const fs = require("fs");
 
 const srcFolder = "C:/Users/linjunbin/Desktop/htmlTest/MyWebsite";
@@ -106,9 +106,9 @@ module.exports = {
                         presets: [
                             ['@babel/preset-env', {
                                 targets: {
-                                    edge: "12",
-                                    firefox: "54",
-                                    chrome: "51",
+                                    edge: "79",
+                                    firefox: "63",
+                                    chrome: "67",
                                     safari: "11",
                                 },
                                 // useBuiltIns: "usage",
