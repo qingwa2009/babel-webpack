@@ -1,10 +1,8 @@
 ﻿const path = require("path");
 const fs = require("fs");
 
-const srcFolder = "C:/Users/linjunbin/Desktop/htmlTest/MyWebsiteProjects/MyWebsite";
-const destFolder = "C:/Users/linjunbin/Desktop/htmlTest/MyWebsiteProjects/MyWebsite-ES5";
-// const srcFolder = "C:/Users/linjunbin/Desktop/aaa";
-// const destFolder = "C:/Users/linjunbin/Desktop/aaa-ES5";
+const srcFolder = "D:/documents/MyCodes/mywebsiteProject/mywebsite";
+const destFolder = "D:/documents/MyCodes/mywebsiteProject/mywebsite-es5";
 
 const ignoreReg = [/^.git$/, /^.vscode$/, /^node_modules$/];
 
